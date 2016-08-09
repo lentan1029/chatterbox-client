@@ -54,7 +54,7 @@ form {
 
 form input[type=text] {
     margin-right: 10px;
-    width: 70%;
+    width: 40%;
     font-size: 12px;
     padding: 5px;
 }
@@ -84,7 +84,8 @@ form input[type=text] {
 }
 
 .friend {
-    color: #fff;
-    background-color: #0090da;
+    color: #000;
+    background-color: #e6ecff;
+    font-style: bold;
 }
 
