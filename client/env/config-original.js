@@ -13,6 +13,6 @@ if (!/(&|\?)username=/.test(window.location.search)) {
 
 // Put your parse application keys here!
 $.ajaxPrefilter(function (settings, _, jqXHR) {
-  jqXHR.setRequestHeader('X-Parse-Application-Id', '6UJYuifdHSHnOvG2DiYXU6cwluUvgDiVOpr8Weqi');
-  jqXHR.setRequestHeader('X-Parse-REST-API-Key', 'gYu7Z35zwiNz4BaNgwyaq9u9A36eVHd38MiDvCH5');
+  jqXHR.setRequestHeader('X-Parse-Application-Id', 'APP_ID');
+  jqXHR.setRequestHeader('X-Parse-REST-API-Key', 'KEY');
 });
